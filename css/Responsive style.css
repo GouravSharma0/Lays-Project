@@ -1,0 +1,212 @@
+@media only screen and (max-width:1000px) {
+    .nav-item:hover #rowmain {
+        display: none;
+    }
+    /* #headermain1
+    {
+        width: 100%;
+    } */
+}
+
+@media only screen and (max-width:1000px) {
+
+    #next,
+    #prev,
+    #textredpic,
+    #viewall,
+    #redboxpic2,
+    #cardmain11 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+
+    #redmainbox,
+    .redpic1 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+
+    #scrollbarred,
+    #cardmainfirst,
+    #cards {
+        width: 18rem;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    #headermain1 {
+        position: relative;
+        left: 0px;
+        top: 100px;
+    }
+}
+
+
+
+
+/* ============================================== */
+@media only screen and (max-width:1000px) {
+    .yellowpic1 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+
+    #yellownext,
+    #yellowprev {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:1000px) {
+
+    #yellowcardmainfirst,
+    #yellowcardmain11 {
+        width: 200px;
+    }
+
+    #yellowcardbodytext {
+        width: 200px;
+    }
+}
+
+
+/* =============================================== */
+
+@media only screen and (max-width:1000px) {
+
+    #greenscrollbar {
+        width: 100%;
+        height: 100px;
+        margin-left: 0px;
+    }
+
+    #textgreenpic {
+        font-size: xx-large;
+        margin-left: 0px;
+        position: relative;
+        top: 0px;
+    }
+
+    .greenpic1 {
+        width: 100%;
+        height: 100px;
+
+    }
+
+    #greenmainbox {
+        width: 100%;
+        height: 300px;
+    }
+
+    #greenboxpic2 {
+        /* width: 100%;
+        height: 400px; */
+        display: none;
+    }
+}
+
+
+/* =========================== */
+@media only screen and (max-width:1000px)
+{
+    .bluepic1
+    {
+        width: 100%;
+        height: 100px;
+        /* display: none; */
+        
+    }
+    #textbluepic
+    {
+        font-size: xx-large;
+        font-weight: 400;
+        margin-left: 0px;
+        position: relative;
+        top: 0px;
+        /* display: none; */
+    }
+    #bluemainbox
+    {
+        width: 100%;
+        height: 300px;
+        margin-top: 200px;
+        background-color: red;
+    }
+    #blueboxpic2
+    {
+        width: 100%;
+        height: 100px;
+/* display: none; */
+
+    }
+    #bluescrollbar
+    {
+        width: 100%;
+        height: 100px;
+        margin-left: 0px;
+        /* display: none; */
+    }
+    #messipic
+    {
+        width: 100%;
+        height: 100px;
+        /* display: none; */
+    }
+    #imgpicbox
+    {
+        width: 33.33%;
+        height: 100px;
+        padding-left: 2.5%; 
+        padding-right: 2.5%;
+        float: left;
+        /* display: none; */
+    }
+    #imgpicbox2
+    {
+        width: 33.33%;
+        height: 100px;
+        padding-left: 0%; 
+        padding-right: 2.5%;
+        float: left;
+    }
+    #imgpicbox3
+    {
+        width: 33.33%;
+        height: 100px;
+        padding-left: 0%; 
+        padding-right: 2.5%;
+        float: left; 
+    }
+   
+    
+    #imgpicboxa,#imgpicbox1a,#messipica,#imgpicbox1,#imgpicbox2a,#imgpicbox3a
+    {
+        display: none;
+    }
+}
+
+/* ================= */
+
+@media only screen and (max-width:1000px)
+{
+    #footermainbox
+{
+    width: 100%;
+    height: 150px;
+}
+
+#youtubeicon,#instagramicon,#twittericon,#facebookiconfooter
+{
+    display: none;
+}
+}
+
+

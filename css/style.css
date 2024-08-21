@@ -1,0 +1,630 @@
+/* .row
+{
+    border: 1px solid black;
+}
+
+.col,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12
+{
+    border: 1px solid red;  
+} */
+
+#body {
+    background-color: #FBB617;
+    
+}
+#headermain1
+{
+    position: fixed;
+    left: 70px;
+    top: 0px;
+    z-index: 10;
+}
+#header {
+    background-color: #FFE600 !important;    
+}
+
+#Products {
+    /* background-color: #DA291C; */
+    color: black;
+    border-radius: 25px;
+}
+
+#Products:hover {
+    background-color: #DA291C;
+    color: white;
+    border-radius: 25px;
+
+}
+
+#aboutus {
+    /* background-color: #DA291C; */
+    color: black;
+    border-radius: 25px;
+}
+
+#aboutus:hover {
+    background-color: #DA291C;
+    color: white;
+    border-radius: 25px;
+
+}
+
+#rowmain {
+    display: none;
+    background-color: brown;
+    width: 100%;
+    height: 238px;
+
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -160px;
+
+}
+
+
+.nav-item:hover #rowmain {
+    display: block;
+    z-index: 10;
+
+
+}
+/* .nav-item
+{
+    margin-top: 100px ;
+} */
+
+#cardbox1 {
+    float: left;
+}
+
+#cardbox2 {
+    float: left;
+}
+
+
+
+
+#redmainbox
+{
+    width: 100%;
+    height: 801px;
+    background-color: #EE3124;
+}
+.redpic1
+{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    background-image: url(photos/bg-products.jpg);
+    margin-top: -200px;
+}
+#textredpic
+{
+    font-size: 92px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+}
+#scrollbarred
+{
+    width: 85%;
+    height: 402px;
+    background-color: aqua;
+    margin-left: 7.5%;
+}
+#cards
+{
+    width: 100%;
+    list-style: none;
+    padding-left: 0px;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0px;
+    font-size: 0px;
+
+}
+#list
+{ 
+ 
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+#viewall
+{
+    border-radius: 20px;
+    width: 100px;
+    color: white;
+    background-color: #DA291C;
+    border: none;
+}
+#cardimg
+{
+    overflow: hidden;
+}
+#cardmainfirst
+{
+    overflow: hidden; 
+    cursor: pointer; 
+}
+#cardmain11
+{
+    overflow: hidden;
+    cursor: pointer;
+}
+#cardbodytext
+{
+    overflow: hidden;
+}
+/* #cardmain11:hover #cardimg
+{
+    transform: scale(1.5);
+    transition: 1s;    
+}
+
+#cardmainfirst:hover #cardimg 
+{
+    transform: scale(1.5);
+    transition: 1s;
+
+} */
+
+#cardmainfirst:hover #viewall
+{
+    background-color: #FFE600;
+    color: black;
+}
+#cardmain11:hover #viewall
+{
+    background-color: #FFE600;
+    color: black;
+}
+
+#next
+{
+    width: 50px;
+    height: 100px;
+    /* background-color: burlywood; */
+position: relative;
+left: 1065px;
+top: 345px; 
+font-size: 80px;
+opacity: 50%;
+cursor: pointer;
+
+
+}
+#prev
+{
+    width: 50px;
+    height: 100px;
+    /* background-color: burlywood; */
+position: relative;
+left: 8px;
+top: 258px;
+font-size: 80px;
+opacity: 50%;
+cursor: pointer;
+
+}
+#redboxpic2
+{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    background-image: url(photos/bg-products2.jpg);
+}
+
+
+
+/* ===================================== */
+
+
+.yellowpic1
+{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    background-image: url(photos/bg-recipes2.jpg);
+    margin-top: -200px;
+    background-position: center;
+    background-size: cover;
+}
+
+#textyellowpic
+{
+    font-size: 92px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+    position: relative;
+    top: 80px;
+
+    
+}
+#yellowmainbox
+{
+    width: 100%;
+    height: 780px;
+    background-color: #F6BE07;
+}
+#yellowboxpic2
+{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    background-image: url(photos/bg-recipes3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#yellowscrollbar
+{
+    width: 85%;
+    height: 481px;
+    background-color:#F6BE07;
+    margin-left: 7.5%;
+}
+#cardsyellow
+{
+    width: 100%;
+    list-style: none;
+    padding-left: 0px;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0px;
+    font-size: 8rem;
+}
+
+#listyellow
+{
+    
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    
+}
+#yellowviewall
+{
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #DA291C;
+    border: none;
+    /* margin-top: 50px; */
+    position: relative;
+    top: -480px;
+}
+#yellowviewalla
+{
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #DA291C;
+    border: none;
+    position: relative;
+    top: -440px;
+    
+}
+#yellowcardmain11:hover #yellowviewalla
+{
+    background-color: #00AAE7;
+    color: black;
+}
+
+
+#yellowcardmainfirst
+{
+    width: 20rem;
+    overflow: hidden;  
+    cursor: pointer;
+}
+#yellowcardmain11
+{
+    width: 20rem;
+    overflow: hidden !important;
+    cursor: pointer;
+}
+#yellowcardbodytext
+{
+    height: 12rem;
+    overflow: hidden !important;
+}
+/* #yellowcardmain11:hover #cardimg 
+{
+    transform: scale(1.5);
+    transition: 1s;    
+}
+
+#yellowcardmainfirst:hover #cardimg 
+{
+    transform: scale(1.5);
+    transition: 1s;
+
+} */
+
+#yellowcardmainfirst:hover #yellowviewall
+{
+    background-color: #00AAE7;
+    color: black;
+}
+#yellowcardmain11:hover #yellowviewall
+{
+    background-color: #00AAE7;
+    color: black;
+}
+
+#yellownext
+{
+    width: 50px;
+    height: 100px;
+    /* background-color: burlywood; */
+position: relative;
+left: 1065px;
+top: 345px; 
+font-size: 80px;
+opacity: 50%;
+cursor: pointer;
+
+
+}
+#yellowprev
+{
+    width: 50px;
+    height: 100px;
+    /* background-color: burlywood; */
+position: relative;
+left: 8px;
+top: 258px;
+font-size: 80px;
+opacity: 50%;
+cursor: pointer;
+
+}
+
+/* ==================================================== */
+
+.greenpic1
+{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    background-image: url(photos/bg-videos.jpg);
+
+    background-position: center;
+    background-size: cover;
+}
+
+#textgreenpic
+{
+    font-size: 92px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+    position: relative;
+    top: 80px;
+
+    
+}
+#greenmainbox
+{
+    width: 100%;
+    height: 780px;
+    background-color: #02A94F;
+}
+#greenboxpic2
+{
+    width: 100%;
+    height: 230px;
+    background-color: blue;
+    background-image: url(photos/bg-videos2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#greenscrollbar
+{
+    width: 55%;
+    height: 350px;
+    background-color:#F6BE07;
+    margin-left: 7.5%;
+}
+#circlebutton
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #DA291C;
+}
+#youtubelink
+{
+    cursor: pointer;
+    overflow: hidden;
+}
+#youtubelink:hover
+{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+/* ============================================================== */
+
+.bluepic1
+{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    background-image: url(photos/bg-social.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#textbluepic
+{
+    font-size: 92px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+    position: relative;
+    top: 80px;
+
+    
+}
+#bluemainbox
+{
+    width: 100%;
+    height: 830px;
+    background-color: #00AAE7;
+}
+#blueboxpic2
+{
+    width: 100%;
+    height: 230px;
+    background-color: blue;
+    background-image: url(photos/bg-social2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#bluescrollbar
+{
+    width: 85%;
+    height: 400px;
+    background-color:#00AAE7;
+    margin-left: 7.5%;
+}
+
+
+#messipic
+{
+    width: 100%;
+    height: 200px;
+    border: none !important;
+    border-radius: 0px !important;
+}
+#messipica
+{
+    width: 100%;
+    height: 200px;
+    border: none !important;
+    border-radius: 0px !important;
+}
+#imgpicbox
+{
+    padding-left: 0px ;
+    padding-right: 0px;
+    float: left;
+    width: 25%;
+    height: 200px;
+}
+#imgpicboxa
+{
+    padding-left: 0px ;
+    padding-right: 0px;
+    float: left;
+    width: 25%;
+    height: 200px;
+}
+
+#imgpicbox1
+{
+    padding-left: 0px ;
+    padding-right: 0px;
+    float: left;
+    width: 25%;
+    height: 200px;
+}
+
+#imgpicbox1a
+{
+    padding-left: 0px ;
+    padding-right: 0px;
+    float: left;
+    width: 25%;
+    height: 200px;
+}
+#imgpicbox2
+{
+    padding-left: 0px ;
+    padding-right: 0px;
+    float: left;
+    width: 25%;
+    height: 200px;
+}
+#imgpicbox2a
+{
+    padding-left: 0px ;
+    padding-right: 0px;
+    float: left;
+    width: 25%;
+    height: 200px;
+}
+#imgpicbox3
+{
+    padding-left: 0px ;
+    padding-right: 0px;
+    float: left;
+    width: 25%;
+    height: 200px;
+}
+#imgpicbox3a
+{
+    padding-left: 0px ;
+    padding-right: 0px;
+    float: left;
+    width: 25%;
+    height: 200px;
+}
+
+/* =============================================== */
+
+#footermainbox
+{
+    width: 100%;
+    height: 170px;
+    background-image: url(photos/bg-contactus-en.jpg);
+}
+
+#facebookiconfooter
+{
+    font-size: 4rem;
+    position: relative;
+    left: 530px;
+    top: 55px;
+color: #ECB431;
+}
+
+#twittericon
+{
+    font-size: 4rem;
+    position: relative;
+    left: 615px;
+    top: 55px;
+color: #ECB431;  
+}
+#instagramicon
+{
+    font-size: 4rem;
+    position: relative;
+    left: 693px;
+    top: 55px;
+color: #ECB431;  
+}
+#youtubeicon
+{
+    font-size: 4rem;
+    position: relative;
+    left: 768px;
+    top: 55px;
+color: #ECB431;  
+}
+
